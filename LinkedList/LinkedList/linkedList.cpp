@@ -6,26 +6,26 @@
 
 
 /**
-*								Array								LinkedList
-* Cost of accessing				O(1)								O(n)
+*						Array							LinkedList
+* Cost of accessing				O(1)							O(n)
   an element
 * 
-* Memory Usage					Fixed Size							No Unused memory
-								(Used + Unused)						Extra memory for pointer variables
-								-> One large block					-> If the data part of the list is large
-								of memory may not 					Then the linked list might consume less memory
-								be available						as compared to arraylist.
-																	-> No contiguous block of memory, so memory might
-																	be available
+* Memory Usage					Fixed Size						No Unused memory
+						(Used + Unused)						Extra memory for pointer variables
+						-> One large block					-> If the data part of the list is large
+						of memory may not 					Then the linked list might consume less memory
+						be available						as compared to arraylist.
+													-> No contiguous block of memory, so memory might
+													be available
 * 
 * Inserting/Deleting 
   Elements
-		Beginning				O(n)								O(1)
+		Beginning			O(n)							O(1)
 		
-		End						O(1) - If array not full			O(n)
-								O(n) - If array is full
+		End				O(1) - If array not full				O(n)
+						O(n) - If array is full
 		
-		ith Position			O(n)								O(n)							
+		ith Position			O(n)							O(n)							
 
 * 
 **/
